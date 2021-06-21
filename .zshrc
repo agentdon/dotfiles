@@ -1,1 +1,1 @@
-plugins=(git)
+plugins=(gh git git-prompt chucknorris)
