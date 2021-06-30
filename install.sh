@@ -5,7 +5,7 @@ git config --global core.editor vim
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # Set ZSH as the default shell
-chsh -s /usr/bin/zsh
+chsh -s /usr/bin/zsh $(whoami)
 
 # Install GitHub CLI
 brew install gh
