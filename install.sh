@@ -14,3 +14,5 @@ brew install gh
 brew install git-extras
 
 echo "\n$(cat .zshrc)" >> ~/.zshrc
+
+git config --global core.editor vim
