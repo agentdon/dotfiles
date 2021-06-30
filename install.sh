@@ -12,3 +12,5 @@ brew install gh
 
 # Install Git Extras
 brew install git-extras
+
+echo "\n$(cat .zshrc)" >> ~/.zshrc
